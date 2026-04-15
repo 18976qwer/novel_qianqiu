@@ -504,7 +504,7 @@ body::after {
   <div class="overlay" id="overlay" onclick="toggleSidebar(false)"></div>
   <main class="main">
     <div class="topbar">
-      <button class="btn-icon" style="margin-right:10px" onclick="toggleSidebarDesktop()" title="目录">☰</button>
+      <button class="btn-icon" style="margin-right:10px" onclick="isMobile()?toggleSidebar():toggleSidebarDesktop()" title="目录">☰</button>
       <div class="page-title" id="pageTitle">第一章 墓园</div>
       <div class="topbar-actions">
         <button class="btn" id="themeBtn" onclick="toggleTheme()">🌙 暗色</button>
